@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T11:30:17.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nndc1F_TBQYM0JvzoUk_" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T11:33:31.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Nxe6_y7wlncjmUEB6p6r" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="481" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="318" dy="194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,6 +100,18 @@
               <mxPoint x="40" y="300" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QSP5BxizehYSm3C2jSbc-30" value="ProfileController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="760" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QSP5BxizehYSm3C2jSbc-31" value="- currentUser: User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSP5BxizehYSm3C2jSbc-30">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QSP5BxizehYSm3C2jSbc-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QSP5BxizehYSm3C2jSbc-30">
+          <mxGeometry y="52" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QSP5BxizehYSm3C2jSbc-33" value="+ ProfileController(User currentUser)&lt;br&gt;+ changeUsername(Matcher matcher): String&lt;br&gt;+ changePassword(Matcher matcher): String&lt;br&gt;- usernameIsValid(String username): bool&lt;br&gt;- passwordIsValid(String password): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSP5BxizehYSm3C2jSbc-30">
+          <mxGeometry y="60" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
