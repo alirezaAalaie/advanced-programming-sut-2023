@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T13:45:47.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oPibnfnuY-mVtck4Jya0" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T13:49:06.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EWbWfEcxIYuiyxJxcpnu" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="548" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="722" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QSP5BxizehYSm3C2jSbc-30" value="ProfileController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="810" width="280" height="270" as="geometry" />
+          <mxGeometry x="110" y="810" width="280" height="340" as="geometry" />
         </mxCell>
         <mxCell id="QSP5BxizehYSm3C2jSbc-31" value="- currentUser: User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -110,8 +110,8 @@
         <mxCell id="QSP5BxizehYSm3C2jSbc-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="QSP5BxizehYSm3C2jSbc-33" value="+ ProfileController(User currentUser)&lt;br&gt;+ changeUsername(Matcher matcher): String&lt;br&gt;+ changePassword(Matcher matcher): String&lt;br&gt;+ changeEmail(Matcher matcher): String&lt;br&gt;+ changeSlogan(Matcher matcher): String&lt;br&gt;+ removeSlogan(): String&lt;br&gt;+ showHighscore(): String&lt;br&gt;+ showRank(): String&lt;br&gt;+ showSlogan(): String&lt;br&gt;+ showProfile(): String&lt;br&gt;- emailIsValid(String email): bool&lt;br&gt;- usernameIsValid(String username): bool&lt;br&gt;- passwordIsValid(String password): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
-          <mxGeometry y="60" width="280" height="210" as="geometry" />
+        <mxCell id="QSP5BxizehYSm3C2jSbc-33" value="+ ProfileController(User currentUser)&lt;br&gt;+ changeUsername(Matcher matcher): String&lt;br&gt;+ changePassword(Matcher matcher): String&lt;br&gt;+ changeEmail(Matcher matcher): String&lt;br&gt;+ changeSlogan(Matcher matcher): String&lt;br&gt;+ removeSlogan(): String&lt;br&gt;+ showHighscore(): String&lt;br&gt;+ showRank(): String&lt;br&gt;+ showSlogan(): String&lt;br&gt;+ showProfile(): String&lt;br&gt;- emailIsValid(String email): bool&lt;br&gt;- usernameIsValid(String username): bool&lt;br&gt;- passwordIsValid(String password): bool&lt;br&gt;+ showPopularityFactors(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showPopularity(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFoodList(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFoodRate(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showTaxRate(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
+          <mxGeometry y="60" width="280" height="280" as="geometry" />
         </mxCell>
         <mxCell id="QSP5BxizehYSm3C2jSbc-34" value="ProfileMenu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="810" width="330" height="110" as="geometry" />
@@ -150,16 +150,16 @@
           <mxGeometry y="88" width="230" height="62" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-9" value="MapController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1110" width="280" height="230" as="geometry" />
+          <mxGeometry x="110" y="1184" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-10" value="- map: Map&lt;br&gt;- x: int&lt;br&gt;- y: int&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gmJ3rV3wUZDdjDfrYmgu-9">
-          <mxGeometry y="26" width="280" height="84" as="geometry" />
+          <mxGeometry y="26" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gmJ3rV3wUZDdjDfrYmgu-9">
-          <mxGeometry y="110" width="280" height="8" as="geometry" />
+          <mxGeometry y="66" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-12" value="+ showMap(int x, int y): String&lt;br&gt;+ moveMap(Matcher matcher): String&lt;br&gt;+ showDetails(int x, int y): String&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gmJ3rV3wUZDdjDfrYmgu-9">
-          <mxGeometry y="118" width="280" height="112" as="geometry" />
+          <mxGeometry y="74" width="280" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-13" value="MapMenu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1370" width="360" height="120" as="geometry" />
@@ -174,7 +174,7 @@
           <mxGeometry y="78" width="360" height="42" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-17" value="Government" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1520" width="360" height="220" as="geometry" />
+          <mxGeometry x="110" y="1520" width="360" height="210" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-18" value="- popularity: int&lt;br&gt;- population: int&lt;br&gt;- foodCapacity: Hashmap&amp;lt;String, int&amp;gt;&lt;br&gt;- foodRate: int&lt;br&gt;- taxRate: int&lt;br&gt;- fearRate: int&lt;br&gt;- religion: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gmJ3rV3wUZDdjDfrYmgu-17">
           <mxGeometry y="26" width="360" height="124" as="geometry" />
@@ -183,7 +183,7 @@
           <mxGeometry y="150" width="360" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gmJ3rV3wUZDdjDfrYmgu-20" value="+ getters &amp;amp; setters&lt;br&gt;+ addFood(String food): void&lt;br&gt;+ setFoodCapacity(String food, int capacity): void&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gmJ3rV3wUZDdjDfrYmgu-17">
-          <mxGeometry y="158" width="360" height="62" as="geometry" />
+          <mxGeometry y="158" width="360" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
