@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T15:58:46.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9lkX5pz9MiOk7iK2kIaI" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T15:59:40.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yOli5d6E3mm_n2sFUGst" version="21.1.7" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1111" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" background="none" math="0" shadow="0">
       <root>
@@ -425,7 +425,7 @@
             <mxPoint x="30" y="2240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClD1jiwEqrb2ey9nbeyF-69" value="WeaponWorkshops" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClD1jiwEqrb2ey9nbeyF-69" value="workshops" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="3500" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ClD1jiwEqrb2ey9nbeyF-70" value="- resource: String&lt;br&gt;- output: String&lt;br&gt;- rate: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ClD1jiwEqrb2ey9nbeyF-69">
