@@ -20,7 +20,7 @@ assignees: Arman17Babaei
 
   1. [ ] شروع نشده
   2. [ ] در حال انجام
-  3. [ ] تمام شده
+  3. [x] تمام شده
   </div>
 </details>
 
@@ -30,7 +30,7 @@ assignees: Arman17Babaei
   <div  dir="ltr" align='right'>
   
   1. [ ] شروع نشده
-  2. [ ] در حال انجام
+  2. [x] در حال انجام
   3. [ ] تمام شده
      </div>
 </details>
@@ -41,42 +41,42 @@ assignees: Arman17Babaei
   <div  dir="ltr" align='right'>
   
   1. [ ] شروع نشده
-  2. [ ] در حال انجام
+  2. [x] در حال انجام
   3. [ ] تمام شده
      </div>
 </details>
 
 ## تسک‌های نفر اول
 
-  **نام و نام خانوادگی:**
+  **علیرضا اعلایی:**
 <details>
-  <summary>تسک مربوطه</summary>
+  <summary>طراحی uml بخش یگان‌ها</summary>
 
   <div dir="ltr" align='right'>
 
   1. [ ] شروع نشده
-  2. [ ] در حال انجام
+  2. [x] در حال انجام
   3. [ ] تمام شده
   </div>
 </details>
 
 ## تسک‌های نفر دوم
 
-  **نام و نام خانوادگی:**
+  **سهند اکرمی‌پور:**
 <details>
-  <summary>تسک مربوطه</summary>
+  <summary>طراحی uml بخش ساختمان‌ها</summary>
 
   <div dir="ltr" align='right'>
 
   1. [ ] شروع نشده
-  2. [ ] در حال انجام
+  2. [x] در حال انجام
   3. [ ] تمام شده
   </div>
 </details>
 
 ## تسک‌های نفر سوم
 
-  **نام و نام خانوادگی:**
+  **سپهر سلامت:**
 <details>
   <summary>تسک مربوطه</summary>
 
