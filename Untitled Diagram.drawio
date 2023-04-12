@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T19:00:12.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-dsc_Pk3qm0EBdmL2qjm" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T19:01:30.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FZ0Pt-hhXHolS5Jc4amr" version="21.1.7" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1324" dy="2526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" background="none" math="0" shadow="0">
       <root>
@@ -571,6 +571,21 @@
         </mxCell>
         <mxCell id="ClD1jiwEqrb2ey9nbeyF-116" value="&lt;u&gt;+ buy(User buyer, Item item)&lt;br&gt;+ sell(User seller, Item item)&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ClD1jiwEqrb2ey9nbeyF-113">
           <mxGeometry y="58" width="380" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ClD1jiwEqrb2ey9nbeyF-117" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClD1jiwEqrb2ey9nbeyF-114" target="ClD1jiwEqrb2ey9nbeyF-100">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-580" y="502.55" as="sourcePoint" />
+            <mxPoint x="-420" y="502.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClD1jiwEqrb2ey9nbeyF-118" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClD1jiwEqrb2ey9nbeyF-103" target="ClD1jiwEqrb2ey9nbeyF-116">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-665" y="656" as="sourcePoint" />
+            <mxPoint x="-220" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-410" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
