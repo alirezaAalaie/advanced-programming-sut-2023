@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T01:04:30.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7t9J0qwD9m2AHZxjlJfG" version="21.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-13T01:19:12.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3fcx0m-j0dgT1lXC7K0R" version="21.1.6" type="github" pages="2">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="882" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="3000" background="none" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
         <mxCell id="QSP5BxizehYSm3C2jSbc-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="QSP5BxizehYSm3C2jSbc-33" value="+ ProfileController(User currentUser)&lt;br&gt;+ changeUsername(Matcher matcher): String&lt;br&gt;+ changePassword(Matcher matcher): String&lt;br&gt;+ changeEmail(Matcher matcher): String&lt;br&gt;+ changeSlogan(Matcher matcher): String&lt;br&gt;+ removeSlogan(): String&lt;br&gt;+ showHighscore(): String&lt;br&gt;+ showRank(): String&lt;br&gt;+ showSlogan(): String&lt;br&gt;+ showProfile(): String&lt;br&gt;- emailIsValid(String email): bool&lt;br&gt;- usernameIsValid(String username): bool&lt;br&gt;- passwordIsValid(String password): bool&lt;br&gt;+ showPopularityFactors(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showPopularity(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFoodList(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFoodRate(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showTaxRate(): String&lt;br&gt;+ selectUnit(Matcher matcher): String&lt;br&gt;+ moveUnit(Matcher matcher) : String&lt;br&gt;+ patrolUnit(Matcher matcher) : String&lt;br&gt;+ stopPatrolUnit(Matcher matcher): String&lt;br&gt;+ setMode(Matcher matcher) : String&lt;br&gt;+ attackEnemy(Matcher matcher): String&lt;br&gt;+ archerAttack(Matcher matcher): Sting&lt;br&gt;+ pourOil(Matcher matcher) : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
+        <mxCell id="QSP5BxizehYSm3C2jSbc-33" value="+ ProfileController(User currentUser)&lt;br&gt;+ changeUsername(Matcher matcher): String&lt;br&gt;+ changePassword(Matcher matcher): String&lt;br&gt;+ changeEmail(Matcher matcher): String&lt;br&gt;+ changeSlogan(Matcher matcher): String&lt;br&gt;+ removeSlogan(): String&lt;br&gt;+ showHighscore(): String&lt;br&gt;+ showRank(): String&lt;br&gt;+ showSlogan(): String&lt;br&gt;+ showProfile(): String&lt;br&gt;- emailIsValid(String email): bool&lt;br&gt;- usernameIsValid(String username): bool&lt;br&gt;- passwordIsValid(String password): bool&lt;br&gt;+ showPopularityFactors(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showPopularity(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFoodList(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFoodRate(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showTaxRate(): String&lt;br&gt;+ selectUnit(Matcher matcher): String&lt;br&gt;+ moveUnit(Matcher matcher) : String&lt;br&gt;+ patrolUnit(Matcher matcher) : String&lt;br&gt;+ stopPatrolUnit(Matcher matcher): String&lt;br&gt;+ setMode(Matcher matcher) : String&lt;br&gt;+ attackEnemy(Matcher matcher): String&lt;br&gt;+ archerAttack(Matcher matcher): Sting&lt;br&gt;+ pourOil(Matcher matcher) : String&lt;br&gt;+ disbandUnit() :String&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QSP5BxizehYSm3C2jSbc-30" vertex="1">
           <mxGeometry y="60" width="280" height="470" as="geometry" />
         </mxCell>
         <mxCell id="QSP5BxizehYSm3C2jSbc-34" value="ProfileMenu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -308,7 +308,7 @@
             <mxPoint x="520" y="1990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jw16bhg85ITf3J3rjHqm-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Soldier&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ move(soldierName type , int x, int y) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ attack(soldierNamme, int x, int y&lt;span style=&quot;background-color: initial;&quot;&gt;) : void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ defence(soldierName type) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Jw16bhg85ITf3J3rjHqm-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Soldier&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ move(soldierName type , int x, int y) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ attack(soldierNamme, int x, int y&lt;span style=&quot;background-color: initial;&quot;&gt;) : void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ defence(soldierName type) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="890" y="1610" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Jw16bhg85ITf3J3rjHqm-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.004;exitY=0.839;exitDx=0;exitDy=0;entryX=1;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="vpk1WcqEVAIUIwwhBZgr-47" target="Jw16bhg85ITf3J3rjHqm-15">
@@ -335,7 +335,7 @@
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-1">
           <mxGeometry y="26" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="vpk1WcqEVAIUIwwhBZgr-4" value="+ Tunneler(sldierName type)&lt;br&gt;&lt;br&gt;- destroyWall() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-1">
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-4" value="+ Tunneler(sldierName type)&lt;br&gt;&lt;br&gt;+ digTunnel(int x, int y) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-1">
           <mxGeometry y="34" width="200" height="126" as="geometry" />
         </mxCell>
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=-0.003;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vpk1WcqEVAIUIwwhBZgr-4" target="Jw16bhg85ITf3J3rjHqm-15">
@@ -350,18 +350,9 @@
             <mxPoint x="1450" y="1990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vpk1WcqEVAIUIwwhBZgr-20" value="Engineer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1355" y="2244" width="200" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="vpk1WcqEVAIUIwwhBZgr-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-20">
-          <mxGeometry y="26" width="200" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="vpk1WcqEVAIUIwwhBZgr-22" value="+ Engineer (sldierName type)&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-20">
-          <mxGeometry y="34" width="200" height="126" as="geometry" />
-        </mxCell>
-        <mxCell id="vpk1WcqEVAIUIwwhBZgr-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.839;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vpk1WcqEVAIUIwwhBZgr-22" target="Jw16bhg85ITf3J3rjHqm-15">
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=-0.011;exitY=0.074;exitDx=0;exitDy=0;entryX=1;entryY=0.839;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="vpk1WcqEVAIUIwwhBZgr-53" target="Jw16bhg85ITf3J3rjHqm-15">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="990" y="2010" as="sourcePoint" />
+            <mxPoint x="1355" y="2341" as="sourcePoint" />
             <mxPoint x="1170" y="1860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -399,7 +390,7 @@
           <mxGeometry y="100" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-38" value="GroupSoldier" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="1350" width="310" height="228" as="geometry" />
+          <mxGeometry x="920" y="1320" width="310" height="270" as="geometry" />
         </mxCell>
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-39" value="- group : ArrayList&amp;lt;Soldier&amp;gt;&lt;br&gt;- modeGroup : GroupModeName&lt;br&gt;- type :soldierName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-38">
           <mxGeometry y="26" width="310" height="64" as="geometry" />
@@ -407,8 +398,8 @@
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-38">
           <mxGeometry y="90" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="vpk1WcqEVAIUIwwhBZgr-41" value="+ moveGroup(int x, int y) : void&lt;br&gt;+ patrolGroup(int x1, int y1,int x2, int y2) : void&lt;br&gt;+ stopGroup(int x1, int y1,int x2, int y2): void&lt;br&gt;+ checkMode(): void&lt;br&gt;+ attackEnemy(Object enemy) : void&lt;br&gt;+ archerAttack(int x, int y) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-38">
-          <mxGeometry y="98" width="310" height="130" as="geometry" />
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-41" value="+ addSoldier(Soldier soldier): void&lt;br&gt;+ moveGroup(int x, int y) : void&lt;br&gt;+ patrolGroup(int x1, int y1,int x2, int y2) : void&lt;br&gt;+ stopGroup(int x1, int y1,int x2, int y2): void&lt;br&gt;+ checkMode(): void&lt;br&gt;+ attackEnemy(Object enemy) : void&lt;br&gt;+ archerAttack(int x, int y) : void&lt;br&gt;+ checkRange() :void&lt;br&gt;+ disband() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-38">
+          <mxGeometry y="98" width="310" height="172" as="geometry" />
         </mxCell>
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-42" value="GroupModeName ( enum)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="1380" width="220" height="34" as="geometry" />
@@ -427,6 +418,18 @@
         </mxCell>
         <mxCell id="vpk1WcqEVAIUIwwhBZgr-49" value="+ Archer(soldierName type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-46">
           <mxGeometry y="78" width="225" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-50" value="Engineer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="2290" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-51" value="- range : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-50">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-50">
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vpk1WcqEVAIUIwwhBZgr-53" value="+ Engineer (sldierName type)&lt;br&gt;+ build(BuildingTtype building) : void&lt;br&gt;+ pourOil(String direction)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vpk1WcqEVAIUIwwhBZgr-50">
+          <mxGeometry y="60" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
